@@ -43,6 +43,7 @@ jobs:
       - name: Establish Tailscale Connection
         shell: pwsh
         # 注入环境变量：填写你的Tailscale认证密钥，直接明文填写即可
+        # 点击链接一键获取:Key:https://login.tailscale.com/admin/settings/keys
         env:
           TAILSCALE_AUTH_KEY: 填入你的 Tailscale Auth Key
         # 运行仓库内的Tailscale连接脚本，登录组网+获取IP并写入环境变量
