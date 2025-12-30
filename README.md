@@ -80,7 +80,7 @@ docker-compose -f "配置文件" up
   | `debian.yml` | debian       | 未知   |
   | `centos.yml` | centos       | 未知   |
   | `macos.yml` | macos11       | 未知   |
-  | `pxe.yml` | Proxmox VE       | 未知   |
+  | `pve.yml` | Proxmox VE       | 未知   |
 
 # 这么做的好处是：
 1. 获得免费限时的 VPS/虚拟 机器
