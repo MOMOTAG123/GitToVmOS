@@ -8,7 +8,7 @@
 
 # 该项目基于GitHub Codespaces余额使用
 > [!TIP]
-> 使用的是你Codespaces余额，每个都有免费时长，也可进行购买
+> 使用的是你Codespaces余额，每个月都有免费时长，也可进行购买
 > 到一定时间/关闭vscode会自动关闭，重新输入指令启动就行了，不会丢失数据
 
 # 在github跑windows/linux/虚拟机!!!
@@ -62,6 +62,7 @@ docker-compose -f "配置文件" up
   
   | **配置文件** | **系统/版本**            | **大小** |
   |---|---|---|
+  | ``   | Windows            |    |
   | `w11.yml`   | Windows 11 Pro            | 5.4 GB   |
   ||||
   | `w10.yml`   | Windows 10 Pro            | 5.7 GB   |
@@ -77,9 +78,12 @@ docker-compose -f "配置文件" up
   | `w2016.yml` | Windows Server 2016       | 6.5 GB   |
   | `w2012.yml` | Windows Server 2012       | 4.3 GB   |
   |||| 
+  | ``   | linux            |    |
   | `debian.yml` | debian       | 未知   |
   | `centos.yml` | centos       | 未知   |
+  | ``   | macos            |    |
   | `macos.yml` | macos11       | 未知   |
+  | ``   | other(linux)            |    |
   | `pve.yml` | Proxmox VE       | 未知   |
 
 # 这么做的好处是：
