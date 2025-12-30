@@ -3,6 +3,7 @@
 <img src="https://github.com/dockur/windows/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" />
 <img src="https://github.com/dockur/macos/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" />
 <img src="https://raw.github.com/github/explore/eb40fa94e4b686db568094600bb30065acce30c3/topics/linux/linux.png?size=48" title="Logo" style="max-width:100%;" width="128" />
+<img src="https://pve.proxmox.com/favicon.ico" title="Logo" style="max-width:100%;" width="128" />
 </div>
 
 # 该项目基于GitHub Codespaces余额使用
