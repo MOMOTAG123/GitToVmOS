@@ -1,15 +1,16 @@
-<h1 align="center">GitToLindows<br />
+<h1 align="center">Git To VmsOS<br />
 <div align="center">
 <img src="https://github.com/dockur/windows/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" />
 <img src="https://github.com/dockur/macos/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" />
 <img src="https://raw.github.com/github/explore/eb40fa94e4b686db568094600bb30065acce30c3/topics/linux/linux.png?size=48" title="Logo" style="max-width:100%;" width="128" />
 </div>
 
-# 禁止滥用，封了不能怪我
+# 该项目基于GitHub Codespaces余额使用
 > [!TIP]
+> 使用的是你Codespaces余额，每个都有免费时长，也可进行购买
 > 到一定时间/关闭vscode会自动关闭，重新输入指令启动就行了，不会丢失数据
 
-# 在github跑windows/linux!!!
+# 在github跑windows/linux/虚拟机!!!
 
 1. 主要思路就是通过 Github Codespaces功能创建一个 blank template 的 codespace，它是一个 Debian或Ubuntu 虚拟机，在这个虚拟机中可以执行 docker-compose -f 配置文件 up 创建一个 Windows/linux 的容器，可以通过端口转发的链接（设置成 public）来访问。
 
@@ -49,6 +50,13 @@ docker-compose -f "配置文件" up
 # windows/macos如何连接
 - 只需要点端口找到特定的8006端口
 
+# macos连接
+- 只需要点端口找到特定的8006端口
+
+# Proxmox VE连接
+- 只需要点端口找到特定的docker端口
+- 进行网页操作
+
 # 支持的系统：
   
   | **配置文件** | **系统/版本**            | **大小** |
@@ -71,12 +79,13 @@ docker-compose -f "配置文件" up
   | `debian.yml` | debian       | 未知   |
   | `centos.yml` | centos       | 未知   |
   | `macos.yml` | macos11       | 未知   |
+  | `pxe.yml` | Proxmox VE       | 未知   |
 
 # 这么做的好处是：
-1. 获得免费的 VPS 虚拟机
-2. 这个 Windows/linux  容器规格比较大
+1. 获得免费限时的 VPS/虚拟 机器
+2. 这个 Windows/linux/macos  容器规格比较大
 3. 没有臃肿的预置软件
 4. 网络访问没有限制
-5. 网速特别快
+5. 网速特别快/支持境外网络
 6. 可以使用 Copilot AI
 
