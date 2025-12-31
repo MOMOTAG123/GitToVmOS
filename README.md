@@ -13,17 +13,19 @@
 
 # 在github跑windows/linux/虚拟机!!!
 
-1. 主要思路就是通过 Github Codespaces功能创建一个 blank template 的 codespace，它是一个 Debian或Ubuntu 虚拟机，在这个虚拟机中可以执行 docker-compose -f 配置文件 up 创建一个 Windows/linux 的容器，可以通过端口转发的链接（设置成 public）来访问。
+1. 1思路就是通过 Github Codespaces功能创建一个 blank template 的 codespace，它是一个 Debian或Ubuntu 虚拟机，在这个虚拟机中可以执行 docker-compose -f 配置文件 up 创建一个 Windows/linux 的容器，可以通过端口转发的链接（设置成 public）来访问。
+2. 2思路为基于GitHub Actions的工作模式，在GitHub Actions里的容器跑系统，通过本项目网页一键拉取。
 
-2. 一键启动默认是windows7系统
+3. 一键启动默认是windows7系统
 
-3. 在指令的"配置文件"可以换成"w10.yml"或者"w11.yml"，或者其他系统配置文件
+4. 在指令的"配置文件"可以换成"w10.yml"或者"w11.yml"，或者其他系统配置文件
 
-4. 当然，也可以选择 Win11/win10 之外其他的操作系统或软件的容器。比如，搭建一个网站，一个笔记系统等，只要是docker容器都可以。
+5. 当然，也可以选择 Win11/win10 之外其他的操作系统或软件的容器。比如，搭建一个网站，一个笔记系统等，只要是docker容器都可以。
 
-5. 在vscode中打开配置文件可进行机器核心和运行内存的更改，也可更改端口。
+6. 在vscode中打开配置文件可进行机器核心和运行内存的更改，也可更改端口。
 
-# 开始教程(使用)
+# 开始教程
+## ***思路1***
 1. 先登录你的github账号
 2. 并拉取本项目
 3. 然后点击本项目一个绿色按钮(Code)
@@ -40,6 +42,9 @@ docker-compose -f "配置文件" up
 10. 点击8006端口对应的链接网址
 11. 恭喜你完成本次操作了
 12. 等待即可食用windows/linux/macos
+
+ ## ***思路2***
+
 
 # linux系统启动方法（连接）
 1. 部署好后，新建终端
