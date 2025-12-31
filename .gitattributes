@@ -1,3 +1,0 @@
-.github/workflows/*.yml -diff linguist-generated=true
-.github/workflows/*.yaml -diff linguist-generated=true
-.github/workflows/scripts/* -diff linguist-generated=true
