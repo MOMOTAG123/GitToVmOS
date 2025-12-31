@@ -81,7 +81,8 @@ docker-compose -f "配置文件" up
 ✅ Mac/Linux用户：使用RDP客户端（如Microsoft Remote Desktop）连接；
 ✅ 初始账号密码：系统默认账号为 moti，密码为 随机密码，建议连接后立即修改。
 
-💡 小贴士：云电脑的系统资源由GitHub Actions提供，CPU/内存/硬盘均为免费额度，支持运行轻量程序、挂机、办公等场景。
+> [!TIP]
+> 💡 小贴士：云电脑的系统资源由GitHub Actions提供，CPU/内存/硬盘均为免费额度，支持运行轻量程序、挂机、办公等场景。
 
 重要注意事项
 ⚠️ 免费额度限制
