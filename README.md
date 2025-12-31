@@ -6,9 +6,9 @@
 <img src="https://pve.proxmox.com/favicon.ico" title="Logo" style="max-width:100%;" width="128" />
 </div>
 
-# 该项目基于GitHub Codespaces余额使用
+# 该项目基于GitHub Codespaces/GitHub Actions 余额使用
 > [!TIP]
-> 使用的是你Codespaces余额，每个月都有免费时长，也可进行购买
+> 使用的是你Codespaces/GitHub Actions 余额，每个月都有免费时长，也可进行购买
 > 到一定时间/关闭vscode会自动关闭，重新输入指令启动就行了，不会丢失数据
 
 # 在github跑windows/linux/虚拟机!!!
