@@ -99,20 +99,21 @@ GitHub云电脑的运行时长为单次任务时长（最长6小时），任务�
 ⚠️ 禁止违规使用
 请勿将云电脑用于挖矿、爬虫、攻击、违法违规等用途，否则会被GitHub封禁账号，后果自负。
 
-# linux系统启动方法（连接）
+# 系统使用方法
+## linux系统启动方法（连接）
 1. 部署好后，新建终端
 2. 输入bash start系统.sh
 - 比如：
 - debian：bash startdeb.sh
 - centos：bash startcen.sh
 
-# windows/macos如何连接
+## windows/macos如何连接
 - 只需要点端口找到特定的8006端口
 
-# macos连接
+## macos连接
 - 只需要点端口找到特定的8006端口
 
-# Proxmox VE连接
+## Proxmox VE连接
 - 只需要点端口找到特定的docker端口
 - 进行网页操作
 
