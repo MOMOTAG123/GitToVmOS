@@ -45,13 +45,15 @@ docker-compose -f "配置文件" up
 
  ## ***思路2***
 一、前置准备
-1. 准备一个GitHub账号
+1.打开本项目网站
+
+2. 准备一个GitHub账号
 拥有自己的GitHub账号，没有的话去 GitHub官网 注册即可，完全免费。
 
-2. 创建一个空的GitHub仓库
+3. 创建一个空的GitHub仓库
 在GitHub上新建一个公开/私有仓库（推荐私有），仓库名称随意，无需初始化任何文件，复制仓库的完整地址（如：https://github.com/用户名/仓库名.git）备用。
 
-3. 准备Tailscale账号
+4. 准备Tailscale账号
 去 Tailscale官网 注册账号，用于云电脑的远程连接，免费额度完全够用。
 
 二、核心操作步骤
